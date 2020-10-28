@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/app.min.css">
+</head>
+<body>
+
+    <div class="all-page flex-cont">
+
+        <div data-speed="10" class="ring-img layer">
+
+        <div class="fog"></div>
+                    
+        </div>
+
+        <div class="attribute_bar">
+                    
+            <div class="player_hp_bar">
+                <div class="player_hp_status"></div>                
+            </div>
+            <div class="player_stamina_bar">
+                <div class="player_stamina_status"></div>
+            </div>
+            <div class="mc_hp_bar">
+                <div class="mc_hp_status"></div>
+            </div>
+            <div class="mc_stamina_bar">
+                <div class="mc_stamina_status"></div>
+            </div>
+
+        </div>
+        
+        <div class="left-menu flex-cont">
+
+            <div class="fight-description"><h1>Defense</h1></div>
+            <div class="defense head" data-comment="Defense your head from damage."></div>
+            <div class="defense torso" data-comment="Defense your torso from damage."></div>
+            <div class="defense legs" data-comment="Defense your legs from damage."></div>
+
+        </div>
+
+        <div class="main-screen flex-cont">
+
+            <div class="first-person">
+
+                <div class="weapon-fp movement" data-speed="20"></div>
+
+            </div>
+
+            <div class="parallax-scene">
+                <div class="curtain-1">
+                    <div class="weapon-box-1 shown">
+                        <img class="weapon fork" src="img/images/512_fork.png" alt="">
+                    </div>
+
+                    <div class="weapon-box-2 shown">
+                        <img class="weapon banana" src="img/images/512_banana.png" alt="">
+                    </div>
+                </div>
+
+                <div data-speed="30" class="mc-img layer">
+
+                </div>
+
+                <div class="curtain-2">
+                    <div class="weapon-box-3 shown">
+                        <img class="weapon doner" src="img/images/512_doner.png" alt="">
+                    </div>
+
+                    <div class="weapon-box-4 shown">
+                        <img class="weapon pistol" src="img/images/512_pistol.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-menu flex-cont">
+            
+            <div class="fight-description"><h1>Attack</h1></div>
+            <div class="attack head" data-comment="Attack your opponent head."></div>
+            <div class="attack torso" data-comment="Attack your opponent torso."></div>
+            <div class="attack legs" data-comment="Attack your opponent legs."></div>
+
+        </div>
+
+    </div>
+
+    <div class="start-round flex-cont">
+
+        <div class="start-btn flex-cont"><h2>START!</h2></div>
+
+    </div>
+
+    <div class="footer">
+
+        <span class="commentary"></span><span class="commentary_2"></span>
+
+        <div class="description">
+            <h1>Choose your weapon</h1>
+        </div>
+
+        <button class="fight-btn hide">FIGHT!!!</button>
+
+    </div>
+
+    <script src='js/app.min.js'></script>
+</body>
+</html>
